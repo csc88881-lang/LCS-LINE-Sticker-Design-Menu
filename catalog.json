@@ -1,0 +1,243 @@
+{
+  "version": "0.1.0",
+  "categories": [
+    {
+      "key": "style",
+      "prefix": "S",
+      "title": "角色風格",
+      "names": [
+        "3D 半寫實",
+        "3D 大頭公仔",
+        "2D 萌系卡通",
+        "水彩手帳",
+        "極簡線條",
+        "美式漫畫",
+        "日系動畫",
+        "像素藝術",
+        "黏土公仔",
+        "黑白漫畫"
+      ],
+      "items": [
+        {
+          "id": "S01",
+          "name": "3D 半寫實",
+          "image": "assets/style/S01.webp",
+          "status": "pending"
+        },
+        {
+          "id": "S02",
+          "name": "3D 大頭公仔",
+          "image": "assets/style/S02.webp",
+          "status": "pending"
+        },
+        {
+          "id": "S03",
+          "name": "2D 萌系卡通",
+          "image": "assets/style/S03.webp",
+          "status": "pending"
+        },
+        {
+          "id": "S04",
+          "name": "水彩手帳",
+          "image": "assets/style/S04.webp",
+          "status": "pending"
+        },
+        {
+          "id": "S05",
+          "name": "極簡線條",
+          "image": "assets/style/S05.webp",
+          "status": "pending"
+        },
+        {
+          "id": "S06",
+          "name": "美式漫畫",
+          "image": "assets/style/S06.webp",
+          "status": "pending"
+        },
+        {
+          "id": "S07",
+          "name": "日系動畫",
+          "image": "assets/style/S07.webp",
+          "status": "pending"
+        },
+        {
+          "id": "S08",
+          "name": "像素藝術",
+          "image": "assets/style/S08.webp",
+          "status": "pending"
+        },
+        {
+          "id": "S09",
+          "name": "黏土公仔",
+          "image": "assets/style/S09.webp",
+          "status": "pending"
+        },
+        {
+          "id": "S10",
+          "name": "黑白漫畫",
+          "image": "assets/style/S10.webp",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "key": "font",
+      "prefix": "F",
+      "title": "字體風格",
+      "names": [
+        "3D 果凍漸層",
+        "圓潤可愛",
+        "手寫塗鴉",
+        "街頭噴漆",
+        "漫畫爆炸字",
+        "毛筆書法",
+        "立體氣球字",
+        "霓虹發光字",
+        "復古像素字",
+        "黑體極簡"
+      ],
+      "items": [
+        {
+          "id": "F01",
+          "name": "3D 果凍漸層",
+          "image": "assets/font/F01.webp",
+          "status": "pending"
+        },
+        {
+          "id": "F02",
+          "name": "圓潤可愛",
+          "image": "assets/font/F02.webp",
+          "status": "pending"
+        },
+        {
+          "id": "F03",
+          "name": "手寫塗鴉",
+          "image": "assets/font/F03.webp",
+          "status": "pending"
+        },
+        {
+          "id": "F04",
+          "name": "街頭噴漆",
+          "image": "assets/font/F04.webp",
+          "status": "pending"
+        },
+        {
+          "id": "F05",
+          "name": "漫畫爆炸字",
+          "image": "assets/font/F05.webp",
+          "status": "pending"
+        },
+        {
+          "id": "F06",
+          "name": "毛筆書法",
+          "image": "assets/font/F06.webp",
+          "status": "pending"
+        },
+        {
+          "id": "F07",
+          "name": "立體氣球字",
+          "image": "assets/font/F07.webp",
+          "status": "pending"
+        },
+        {
+          "id": "F08",
+          "name": "霓虹發光字",
+          "image": "assets/font/F08.webp",
+          "status": "pending"
+        },
+        {
+          "id": "F09",
+          "name": "復古像素字",
+          "image": "assets/font/F09.webp",
+          "status": "pending"
+        },
+        {
+          "id": "F10",
+          "name": "黑體極簡",
+          "image": "assets/font/F10.webp",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "key": "layout",
+      "prefix": "L",
+      "title": "排版構圖",
+      "names": [
+        "巨字共構",
+        "人物置中",
+        "左人右字",
+        "上字下人",
+        "對話框",
+        "破紙次元",
+        "文字演員化",
+        "特寫構圖",
+        "場景互動",
+        "多元素共構"
+      ],
+      "items": [
+        {
+          "id": "L01",
+          "name": "巨字共構",
+          "image": "assets/layout/L01.webp",
+          "status": "pending"
+        },
+        {
+          "id": "L02",
+          "name": "人物置中",
+          "image": "assets/layout/L02.webp",
+          "status": "pending"
+        },
+        {
+          "id": "L03",
+          "name": "左人右字",
+          "image": "assets/layout/L03.webp",
+          "status": "pending"
+        },
+        {
+          "id": "L04",
+          "name": "上字下人",
+          "image": "assets/layout/L04.webp",
+          "status": "pending"
+        },
+        {
+          "id": "L05",
+          "name": "對話框",
+          "image": "assets/layout/L05.webp",
+          "status": "pending"
+        },
+        {
+          "id": "L06",
+          "name": "破紙次元",
+          "image": "assets/layout/L06.webp",
+          "status": "pending"
+        },
+        {
+          "id": "L07",
+          "name": "文字演員化",
+          "image": "assets/layout/L07.webp",
+          "status": "pending"
+        },
+        {
+          "id": "L08",
+          "name": "特寫構圖",
+          "image": "assets/layout/L08.webp",
+          "status": "pending"
+        },
+        {
+          "id": "L09",
+          "name": "場景互動",
+          "image": "assets/layout/L09.webp",
+          "status": "pending"
+        },
+        {
+          "id": "L10",
+          "name": "多元素共構",
+          "image": "assets/layout/L10.webp",
+          "status": "pending"
+        }
+      ]
+    }
+  ],
+  "note": "30 張正式參考圖尚未製作；網頁展示佔位圖"
+}

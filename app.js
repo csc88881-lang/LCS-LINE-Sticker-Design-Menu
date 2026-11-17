@@ -1,0 +1,7 @@
+(async()=>{const catalog=document.querySelector("#catalog");try{
+const res=await fetch("./catalog.json",{cache:"no-store"});if(!res.ok)throw Error("HTTP "+res.status);
+const data=await res.json();const sections=data.categories;
+catalog.innerHTML=sections.map(s=>'<section id="'+s.key+'"><h2>'+s.title+'｜10 款</h2><div class="grid">'+s.items.map(item=>'<article class="card"><div class="preview"><span class="emoji">'+(s.prefix==="S"?"🎨":s.prefix==="F"?"✍️":"🧩")+'</span><span>正式參考圖製作中</span></div><strong>'+item.id+'｜'+item.name+'</strong></article>').join("")+'</div></section>').join("");
+document.querySelector("#selectors").innerHTML=sections.map((s,i)=>'<label>'+s.title+'<select id="s'+i+'">'+s.items.map(item=>'<option value="'+item.id+'">'+item.id+'｜'+item.name+'</option>').join("")+'</select></label>').join("");
+document.querySelector("#copy").addEventListener("click",async()=>{const text=sections.map((s,i)=>s.title+"："+document.querySelector("#s"+i).selectedOptions[0].textContent).join("\n");try{await navigator.clipboard.writeText(text);document.querySelector("#feedback").textContent="✅ 已複製選擇，可以貼給賣家！";}catch{document.querySelector("#feedback").textContent="請手動複製以下內容：\n"+text;}});
+}catch(e){catalog.textContent="設計索引載入失敗，請稍後重新整理。";console.error(e)}})();

@@ -100,61 +100,61 @@
         {
           "id": "F01",
           "name": "3D 果凍漸層",
-          "image": "assets/font/F01.webp",
+          "image": "assets/F01.webp",
           "status": "pending"
         },
         {
           "id": "F02",
           "name": "圓潤可愛",
-          "image": "assets/font/F02.webp",
+          "image": "assets/F02.webp",
           "status": "pending"
         },
         {
           "id": "F03",
           "name": "手寫塗鴉",
-          "image": "assets/font/F03.webp",
+          "image": "assets/F03.webp",
           "status": "pending"
         },
         {
           "id": "F04",
           "name": "街頭噴漆",
-          "image": "assets/font/F04.webp",
+          "image": "assets/F04.webp",
           "status": "pending"
         },
         {
           "id": "F05",
           "name": "漫畫爆炸字",
-          "image": "assets/font/F05.webp",
+          "image": "assets/F05.webp",
           "status": "pending"
         },
         {
           "id": "F06",
           "name": "毛筆書法",
-          "image": "assets/font/F06.webp",
+          "image": "assets/F06.webp",
           "status": "pending"
         },
         {
           "id": "F07",
           "name": "立體氣球字",
-          "image": "assets/font/F07.webp",
+          "image": "assets/F07.webp",
           "status": "pending"
         },
         {
           "id": "F08",
           "name": "霓虹發光字",
-          "image": "assets/font/F08.webp",
+          "image": "assets/F08.webp",
           "status": "pending"
         },
         {
           "id": "F09",
           "name": "復古像素字",
-          "image": "assets/font/F09.webp",
+          "image": "assets/F09.webp",
           "status": "pending"
         },
         {
           "id": "F10",
           "name": "黑體極簡",
-          "image": "assets/font/F10.webp",
+          "image": "assets/F10.webp",
           "status": "pending"
         }
       ]

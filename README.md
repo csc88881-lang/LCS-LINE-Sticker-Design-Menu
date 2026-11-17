@@ -7,30 +7,24 @@ LCS 蝦皮客製化 LINE 貼圖設計參考 MENU。
 - **F01–F10**：字體風格
 - **L01–L10**：排版構圖
 
-## 專案狀態（v0.1）
+## 進度（v0.2）
 - ✅ `catalog.json`：30 款編號、名稱與素材路徑
 - ✅ `index.html`、`app.js`：手機友善網頁、選項組合與複製功能
-- ⏳ **30 張正式參考圖尚未製作**；目前網頁僅顯示佔位卡，不能作為成品展示
-- ⏳ GitHub Pages 尚待於 Settings > Pages 啟用
+- ✅ GitHub Pages 網頁已由用戶截圖確認正常公開顯示
+- ✅ S01–S10 十張首版風格圖已生成、壓縮為 960×960 WebP，待人工將圖檔上傳至 GitHub
+- ⏳ F01–F10、L01–L10 正式參考圖仍待製作
+- 網站現在支援**檢測圖片有無上傳**：檔案存在即顯示圖片，否則顯示佔位圖
 
-## 正式參考圖設計驗收
-- 角色風格 S：盡可能固定同一示範角色，僅變換畫風
-- 字體風格 F：固定「謝謝！」等繁體中文短句，僅變換字體視覺
-- 排版構圖 L：固定角色與文字，僅變換構圖
-- QC：繁體文字完整、角色辨識一致、縮圖可讀、背景及留白清楚、無非授權品牌元素
+## S 系列圖檔放置位置
+`assets/style/S01.webp` 到 `assets/style/S10.webp`。
 
-## 預定圖檔路徑
-- `assets/style/S01.webp` … `S10.webp`
-- `assets/font/F01.webp` … `F10.webp`
-- `assets/layout/L01.webp` … `L10.webp`
+需將十張 WebP **解壓縮後**，在 GitHub 資料夾 [assets/style](./assets/style) 點 **Add file > Upload files**，拖入 10 張圖，最後點 **Commit changes**。不要直接上傳 ZIP。
 
-## 啟用 GitHub Pages
-1. 到 GitHub 儲存庫 **Settings > Pages**
-2. **Build and deployment** 的 Source 選 **Deploy from a branch**
-3. Branch 選 **main**；Folder 選 **/(root)**
-4. 按 **Save**
+## 品質管理
+- S 系列：同一位棕髮丸子頭、米色毛衣、微笑揮手示範人物，展示畫風差異
+- F 系列：固定繁體文字「謝謝！」以比較字型材質
+- L 系列：固定人物與文案以比較構圖
+- 注意：S 系列是買家挑選風格用的示意圖，非 LINE Creators Market 可直接上架的透明背景貼圖
+- 貼圖正式製作須另外進行尺寸、背景透明及去背 QC
 
-預定公開網址：https://csc88881-lang.github.io/LCS-LINE-Sticker-Design-Menu/
-
-## 買家操作
-選擇一種角色風格（S）、一種字體（F）與一種構圖（L），複製組合傳給賣家。
+公開展示網址：https://csc88881-lang.github.io/LCS-LINE-Sticker-Design-Menu/
